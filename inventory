@@ -1,0 +1,2 @@
+[all]
+172.17.0.2 ansible_ssh_pass=gopal ansible_user=gopal

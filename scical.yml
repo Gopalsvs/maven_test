@@ -1,0 +1,8 @@
+---
+- name: ansible
+  hosts: localhost
+  tasks:
+    - name: docker_image
+      docker_image:
+        name: gopalsvs/docker_check
+        source: pull
