@@ -1,6 +1,6 @@
 ---
 - name: ansible
-  hosts: localhost
+  hosts: all
   tasks:
     - name: docker_image
       docker_image:
